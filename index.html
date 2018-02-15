@@ -1,29 +1,129 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en-us">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Title Page</title>
+		<title>About Me</title>
 
 		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
+		<link rel="stylesheet" href="assets/css/style.css">
 	</head>
-	<body>
-		<h1 class="text-center">Hello World</h1>
 
-		<!-- jQuery -->
-		<script src="//code.jquery.com/jquery.js"></script>
-		<!-- Bootstrap JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
- 		<script src="Hello World"></script>
-	</body>
+	<header>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="row">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand scroll-link" href="#home" data-id="home"><span class="ion-code logo">Joshua Bohde</span></a>
+					</div>
+    			<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" style="height: 1px;">
+      			<ul class="nav navbar-nav navbar-right">
+							<li><a href="#home" data-id="home" class="scroll-link">Home</a></li>
+							<li><a href="#about" data-id="about" class="scroll-link">About</a></li>
+							<li><a href="#work" data-id="portfolio" class="scroll-link">Portfolio</a></li>
+							<li><a href="#contact" data-id="contact" class="scroll-link">Contact</a></li>
+     				</ul>
+					</div>
+				</div>
+			</div>
+	  </nav>
+	</header>
+
+	<body>
+	<div id="main-container" class="container">
+		
+		<div class="row">
+			<div class="col-md-12 about_me">
+				<div class="row">
+		  		<div class="page-header">
+ 						<h2>About Me</h2>
+		  		</div>
+		  		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 bio-image">
+		  			<img src="assets/images/Joshua_Bohde.jpg" class="auth-image" alt="my pic"/>
+					</div>
+		  		<div class="col-xs-12 col-sm-6 col-md-8 col-md-8 bio">
+						<p>I began my career path in the summer of 2017, when I enrolled in the UNC Chapel Hill Boot Camp. I quickly became immersed in the world of coding, using every free moment to hone my craft.</p>
+						<p>My previous career in the hospitality industry has lent itself to my current one, as I learned the importance of addressing client needs in an organized, efficient, and professional manner.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12 portfolio">
+				<!-- <div class="row"> -->
+					<div class="page-header">Portfolio</div>
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 project" style="display: inline-block;">
+						<a href="https://jbohde.github.io/Psychic/" target="_blank"><img src="assets/images/Psych_logo.jpg" alt="psych">
+						<h3 class="project title">Psychic game</h3></a>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 project" style="display: inline-block;">
+						<a href="https://jbohde.github.io/black-panther-rpg/" target="_blank"><img src="assets/images/Black_Panther_(Logo).png" alt="rpg">
+						<h3 class="project title">RPG Game</h3></a>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 project" style="display: inline-block;">
+						<a href="https://jbohde.github.io/TriviaGame/" target="_blank"><img src="assets/images/game_of_thrones.jpg" alt="trivia">
+						<h3 class="project title">Trivia Game</h3></a>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 project" style="display: inline-block;">
+						<a href="https://jbohde.github.io/Giftastic/" target="_blank"><img src="assets/images/Gif.jpg" alt="giffy">
+						<h3 class="project title">In A Gif!</h3></a>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 project" style="display: inline-block;">
+						<a href="https://jbohde.github.io/art-explorer/" target="_blank"><img src="assets/images/LocArt.png" alt="logo"></a>
+						<h3 class="project title">Art-Explorer</h3>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 project" style="display: inline-block;">
+						<a href="https://jbohde.github.io/liri-node-app/" target="_blank"><img src="assets/images/siri-icon.png" alt="logo"></a>
+						<h3 class="project title"h3>Liri</h3>
+					</div>
+				<!-- </div> -->
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-7 contact">
+				<div class="page-header">Contact</div>
+				<form>
+					<div class="form-group">
+						<label for="exampleInputName2">Name</label>
+						<input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+						</div>
+						<div class="form-group">
+						<label for="exampleInputEmail1">Email</label>
+						<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+					</div>
+						<textarea class="form-control" rows="3"></textarea>
+						<button type="submit" class="btn btn-default">Submit</button>
+				</form>
+			</div>
+			<div class="col-md-1"></div>
+			<div class="col-md-4 connect">
+		  	<div class="page-header"><h3>Connect with Me</h3></div>
+					<a href="https://github.com/JBohde" target="_blank"><img id="github" src="assets/images/github_logo.png" class="social" alt="Github"></a>
+					<a href="https://www.linkedin.com/in/joshua-bohde-b45a63b1/" target="_blank"><img id="linkedin" src="assets/images/linkedIn_logo.png" class="social" alt="LinkedIn"></a>
+					<a href="https://stackoverflow.com/users/8753590/jbohde" target="_blank"><img id="stacked" src="assets/images/stackOver_logo.png" class="social" alt="Stack"></a>
+			</div>
+		</div>
+	</div>
+	  <footer>
+        <div class="navbar navbar-default navbar-fixed-bottom">
+          <div class="container" id="footer">          
+            &copy;Copyright 2018 Joshua Bohde
+          </div>
+        </div>      
+			</footer>
+	
+	</body>  	 
 </html>
