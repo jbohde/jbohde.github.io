@@ -1,29 +1,20 @@
+html, 
 body {
-  padding: 0;
-  margin: auto;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 15px;
-  line-height: 150%;
   padding: 0;
   margin: 0;
   color: #331;
-  background: #efeef8;
+  background:#414049
 }
-
- /* .container {
-  width: 90%;
-} */
 
 .navbar-default {
   background-color: #07013c;
+  border-color: #07013c;
 }
 
-.navbar-header {
-  margin-left:15%;
-}
-
-.navbar-right{
-  margin-right: 15%;
+.nav {
+  float: right;
 }
 
 a.navbar-brand {
@@ -33,15 +24,18 @@ a.navbar-brand {
 
 .page-header {
   font-size: 22px;
-  /* color: #07013c; */
+  color: #07013c;
   padding-bottom: 20px;
   margin-bottom: 15px;
  	line-height: 22px;
   border-bottom: 2px solid #eee;
 }
 
-/*FOOTER*/
+.container {
+  width: 95%
+}
 
+/*******FOOTER*******/
 #footer {
   padding: 15px 0;
   font-size: 12px;
@@ -49,18 +43,10 @@ a.navbar-brand {
   text-align: center;
 }
 
-/*SOCIAL MEDIA LINKS*/
-
-.connect {
-  background: white;
-  padding: 15px;
-  /* margin-left: 5px; */
-  text-align: center;
-}
-
+/*******SOCIAL MEDIA LINKS*******/
 .social {
-  width: 62px;
-  height: 62px;
+  width: 40px;
+  height: 40px;
   margin-top: 8px;
   margin-right: 5px;
 }
@@ -69,18 +55,16 @@ a.navbar-brand {
   margin-right: 0;
 }
 
-/*ABOUT ME*/
-
+/********ABOUT ME*******/
 .about_me {
-  background: white;
+  background: whitesmoke;
   padding: 20px;
   margin: 5px;
 }
 
-/*PORTFOLIO*/
-
+/*******PORTFOLIO*******/
 .portfolio {
-  background-color: white;
+  background-color: whitesmoke;
   padding: 20px;
   margin: 5px;
 }
@@ -107,11 +91,11 @@ a.navbar-brand {
   margin: auto;
 }
 
-/*CONTACT*/
+/******CONTACT*******/
 .contact {
   background-color: white;
   padding: 20px;
-
+  margin: 0 auto 50px auto;
 }
 
 #form_name {
