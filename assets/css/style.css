@@ -1,11 +1,9 @@
 html, 
 body {
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 15px;
-  padding: 0;
-  margin: 0;
+  font-family: 'Libre Franklin', serif;
+  font-size: 16px;
   color: #331;
-  background:#414049
+  background:#9d9ca3
 }
 
 .navbar-default {
@@ -35,6 +33,10 @@ a.navbar-brand {
   width: 95%
 }
 
+.bottom {
+  margin-bottom: 100px;
+}
+
 /*******FOOTER*******/
 #footer {
   padding: 15px 0;
@@ -56,19 +58,20 @@ a.navbar-brand {
 }
 
 /********ABOUT ME*******/
-.about_me {
-  background: whitesmoke;
-  padding: 20px;
-  margin: 5px;
+.about_me, 
+.portfolio,
+.contact {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
 }
 
 /*******PORTFOLIO*******/
-.portfolio {
-  background-color: whitesmoke;
-  padding: 20px;
-  margin: 5px;
-}
-
 .project {
   height: auto;
   padding-bottom: 10px;
@@ -92,12 +95,6 @@ a.navbar-brand {
 }
 
 /******CONTACT*******/
-.contact {
-  background-color: white;
-  padding: 20px;
-  margin: 0 auto 50px auto;
-}
-
 #form_name {
   margin: 0px;
   width: 635px;
