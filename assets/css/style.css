@@ -3,7 +3,10 @@ body {
   font-family: 'Libre Franklin', serif;
   font-size: 16px;
   color: #331;
-  background:#9d9ca3
+  background:#9d9ca3;
+}
+p {
+  margin: 10px 0 10px;
 }
 
 .navbar-default {
@@ -67,7 +70,7 @@ a.navbar-brand {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   margin: 0 auto;
-  padding: 10px;
+  padding: 30px;
   position: relative;
 }
 
@@ -89,7 +92,6 @@ a.navbar-brand {
 }
 
 .auth-image {
-  float: left;
   height: auto;
   margin: auto;
 }
