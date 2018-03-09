@@ -87,9 +87,14 @@ a.navbar-brand {
 
 .project img {
   width: 250px;
-  height: auto;
+  height: 133px;;
   display: block;
   margin: 0 auto;
+}
+
+#liri {
+  width: 150px;
+  height: 150px;
 }
 
 .auth-image {
