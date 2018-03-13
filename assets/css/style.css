@@ -55,7 +55,7 @@ p {
 }
 
 .container {
-  width: 90%;
+  width: 92%;
   padding: 10px;
 } 
 
@@ -75,7 +75,7 @@ p {
 }
 
 .subscribe {
-  padding: 20px;
+  padding: 15px;
 }
 
 #main-content {
@@ -105,8 +105,9 @@ p {
 
 /******** ABOUT ME *******/
 .about_me, 
-.contact {
-  background-color: whitesmoke;
+.contact,
+.subscribe {
+  background-color: white;
   width: auto;
   height: auto;
   margin: 0 auto;
