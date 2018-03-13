@@ -91,19 +91,16 @@ p {
   margin-bottom: 100px;
 }
 
-/*******FOOTER*******/
+/******* FOOTER *******/
 .footer {
   margin-bottom:0;
   background:#070211;
-}
-
-#footer{
   text-align: center;
   font-size: 10px;
   color: white;
 }
 
-/*******SOCIAL MEDIA LINKS*******/
+/******* SOCIAL MEDIA LINKS *******/
 .social {
   width: 40px;
   height: 40px;
@@ -115,9 +112,8 @@ p {
   margin-right: 0;
 }
 
-/********ABOUT ME*******/
+/******** ABOUT ME *******/
 .about_me, 
-/* .portfolio, */
 .contact {
   background-color: whitesmoke;
   width: auto;
@@ -127,59 +123,34 @@ p {
   position: relative;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
-
 }
 
-/*******PORTFOLIO*******/
+/******* PORTFOLIO *******/
 .project {
-  /* width: 100%;
-  height: auto; */
-  padding: 5px;
+  padding: 10px;
   background-color: white;
   margin:5px;
 }
 
-.title {
+.project-title {
   text-align: center;
 }
 
 .project img {
   width: 250px;
-  /* height: 133px;; */
   display: block;
   margin: 0 auto;
 }
 
-.auth-image {
-  height: auto;
-  margin: auto;
-}
 
-/******CONTACT*******/
-#form_name {
-  margin: 0px;
-  width: 635px;
-  height: 24px;
-}
-
-#form_email {
-  margin: 0px;
-  width: 635px;
-  height: 24px;
-}
-
-#form_message {
-  margin: 0px;
-  width: 635px;
-}
-
+/******* PARRALAX *******/
 input[type=submit] {
-    /* background-color  #07013c; */
     color: #ffffff;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
 }
+
 .separator-type, .title-type, .intro-type, .content-type .intro-type p {
   position: relative;
 }
