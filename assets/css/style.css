@@ -73,7 +73,7 @@ p {
   background-color: white;
 }
 
-.proj-cover {
+/* .proj-cover {
   width:100%;
   height: auto;
   display:flex;
@@ -81,7 +81,7 @@ p {
   align-items:center;
   overflow:hidden;
   background-color: white;
-}
+} */
 
 .subscribe {
   padding: 20px;
