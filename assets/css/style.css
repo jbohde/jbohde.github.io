@@ -71,17 +71,8 @@ p {
   padding: 5px;
   text-align: center;
   background-color: white;
+  /* border-top:  #a09fa5 1.5px solid */
 }
-
-/* .proj-cover {
-  width:100%;
-  height: auto;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  overflow:hidden;
-  background-color: white;
-} */
 
 .subscribe {
   padding: 20px;
