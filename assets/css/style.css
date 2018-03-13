@@ -1,6 +1,6 @@
 html, 
 body {
-  font-family: 'Mina', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: #331;
   background:#070211;
@@ -30,7 +30,7 @@ p {
 }
 
 .navbar-brand {
-  font-size: 42px;
+  font-size: 36px;
 }
 
 .navbar .navbar-nav,
