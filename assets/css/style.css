@@ -3,18 +3,22 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: #331;
-  background:#070211;
-  background: white;
+  background:#2b3e50;
+  /* background: white; */
 }
 
 p {
   margin: 10px 0 10px;
 }
 
+h2 {
+  color: white;
+}
+
 .jumbotron {
   background-image: url("http://www.aestheticamagazine.com/wp-content/uploads/2017/07/y.jpg");
   background-size: cover;
-  height: 600px;
+  height: 853px;
   margin-bottom: 15px;
   color: white;
   text-align: right;
@@ -61,10 +65,11 @@ p {
 
 .polaroid {
   width: 100%;
-  box-shadow: 0 .25px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 2px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 .25px 2px 0 rgba(0, 0, 0, 0.5), 0 3px 2px 0 rgba(0, 0, 0, 1.25);
   text-align: center;
   margin: 0 0 20px 0;
   position: relative;
+  background-color: white;
 }
 
 .attachment {
@@ -85,7 +90,7 @@ p {
 /******* FOOTER *******/
 .footer {
   margin-bottom:0;
-  background:#070211;
+  background:#4e5d6c;
   text-align: center;
   font-size: 10px;
   color: white;
