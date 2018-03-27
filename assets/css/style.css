@@ -9,6 +9,7 @@ body {
 
 p {
   margin: 10px 0 10px;
+  text-align: left;
 }
 
 h2 {
@@ -34,7 +35,7 @@ h2 {
 }
 
 .navbar-brand {
-  font-size: 24px;
+  font-size: 36px;
 }
 
 .navbar .navbar-nav,
