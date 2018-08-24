@@ -337,11 +337,6 @@ transition: background-color 0.25s ease-in-out;
   margin: 0 auto;
 }
 
-#abttru {
-  border-radius: 50%;
-  padding-top: 5px;
-}
-
 .bottom {
   margin: 50px;
   color: white;
