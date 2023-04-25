@@ -1,392 +1,129 @@
-html, 
+* {
+  box-sizing: border-box;
+}
+
 body {
-  height: 100%;
-  margin: 0;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
-  color: #331;
-  background:#2b3e50;
-  /* background: white; */
-}
-
-img.auth-image {
-  width: 100%;
-}
-
-.bio {
-  padding:15px;
-}
-
-h2,
-h4 {
-  color: white;
-}
-
-.title {
-  margin:25px;
-  text-align:center;
-}
-
-.navbar-default {
-  background-color: transparent;
-  border-color: transparent;
-  color: white;
-  padding: 5px;
-  margin: 0px;
-}
-
-.navbar .navbar-nav,
-.navbar-form,
-.navbar-nav>li>a,
-.navbar.navbar-collapse {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-  text-align: center;
-  background-color:transparent;
-  color: white;
-}
-
-@media (max-width: 400px) {
-  .navbar-nav>li>a,
-  .navbar.navbar-collapse {
-    width: 100%;
-    background-color: black;
-    opacity: .6;
-  }
-}
-
-#myLogo {
-  width: 60px;
-  height: 60px;
-  margin-top: -20px;
-  margin-left: 20px;
-}
-
-.jumbotron {
-  background-image: url("http://www.aestheticamagazine.com/wp-content/uploads/2017/07/y.jpg");
-  /* background-image: url("../images/astronomy-colors-constellation-957010.jpg"); */
+  flex-direction: column;
+  background: #9DDAF6;
+  background-image:
+    linear-gradient(to bottom, #0E6895, #9DDAF6 50%, transparent 70%);
   background-size: cover;
-  height: 853px;
-  margin-bottom: 15px;
-  color: white;
-  text-align: right;
-  /* text-shadow: black 0.3em 0.3em 0.3em; */
-}
-
-#messenger {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  font-family: monospace;
-  font-size: 40px;
-  white-space: nowrap;
-  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.9);
-}
-
-
-/******* PARRALAX ARROW NAVIGATOR *******/
-input[type=submit] {
-  color: #ffffff;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-.separator-type, .title-type, .intro-type, .content-type .intro-type p {
-position: relative;
-}
-.intro-type .container {
-padding: 107px 0px 102px 0px !important;
-}
-
-.company-heading h1 {
-margin-bottom: 60px;
-padding-bottom: 50px;
-line-height: 80px;
-color: #fff;
-font-weight: 700 !important;
-text-align: center;
-}
-
-.jumbo {
-margin-top: 50px;
-}
-
-.seo-header, .product-header, 
-.intro-type .container h1.white, 
-.company-heading h1 {
-font-weight: 100 !important;
-text-transform: capitalize;
-font-size: 55px;
-margin-bottom: 20px;
-}
-
-.parallax {
-background-attachment: inherit !important;
-}
-
-.parallax {
-background-attachment: inherit !important;
-}
-
-.parallax {
-background-attachment: inherit !important;
-background-repeat: repeat;
-background-size: cover;
-position: absolute;
-top: 0px;
-bottom: 0px;
-width: 100%;
-z-index: -10;
-}
-
-.ct-btn-scroll {
-width: 49px;
-height: 49px;
-position: absolute;
-bottom: 30px;
-left: 0;
-right: 0;
-margin: auto;
-padding-top: 500px;
-z-index: 9;
-border-radius: 50%;
--webkit-transition: background-color 0.25s ease-in-out;
-transition: background-color 0.25s ease-in-out;
-}
-
-.arrow {
-width: 50px;
-height: 50px;
-}
-
-.up {
-width: 49px;
-height: 49px;
-position: relative;
-bottom: 30px;
-left: 0;
-right: 0;
-margin: auto;
-padding-top: 500px;
-z-index: 9;
-border-radius: 50%;
--webkit-transition: background-color 0.25s ease-in-out;
-transition: background-color 0.25s ease-in-out;
-}
-
-
-/******** ABOUT ME *******/
-
-.container {
-  width: 95%;
-  padding: 10px;
-} 
-
-.about_me {
-  background-color: white;
-  width: auto;
-  height: auto;
-  margin: 0 auto;
-  padding: 10px;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   position: relative;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  /* margin: 10px 0 10px; */
-  text-align: left;
+  height: 100vh;
+  height: 100dvh;
 }
 
-#section2,
-#section3 {
-  padding-bottom: 50px;
+.mountains {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+.info {
+  text-align: center;
+  position: relative;
+  top: 5rem;
   z-index: 1;
 }
 
-.pimg1 {
-  background-image: url("../images/computer-laptop-work-place-camera-705164.jpeg");
-  min-height: 400px;
+.info h1 {
+  color: white;
+  font-size: 3rem;
+  margin: 0;
 }
 
-.pimg2 {
-  background-image: url("../images/pexels-photo.jpg");
-  min-height: 400px;
+.info h2 {
+  color: white;
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 0 0 1rem 0;
 }
 
-.pimg1, 
-.pimg2 {
-  position: relative;
-  opacity: 0.70;
-  background-position:center;
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-attachment:fixed;
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.section {
-  text-align:center;
-  padding: 50px 50px;
+.social-icons a {
+  margin: 0 10px;
+  transform: translateY(20px);
+  opacity: 0;
+  animation: slide-up 0.5s ease-out forwards;
 }
 
-.section-light {
-  background-color: whitesmoke;
-  color: black;
-  min-height: 300px;
-}
-
-.section-dark {
-  background-color:#4e5d6c;
+.link {
   color: white;
 }
 
-.ptext {
-  padding-top:10%;
+.social-icons a:nth-child(1) {
+  animation-delay: 0.1s;
 }
 
-@media(max-width:568px) {
-  .ptext {
-    padding-top:20px;
+.social-icons a:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.social-icons a:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.social-icons a i {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
   }
 }
 
-.icon {
-  width:50%;
-  margin: 0 auto;
-  padding: 10px;
-}
-
-#quotebox {
-  width: 50%;
-  margin: 0 auto;
-}
-
-.quote { 
-  display:none; 
-  float:left; 
-  height:69px;
-  padding-top: 30px;
-}
-
-.quotemark { 
-  display:none; 
-  float:left;
-  font:bold 100px Helvetica; 
-  letter-spacing:-35px; 
-  line-height:100px;
-}
-
-@media(max-width:568px){
-  .pimg1,.pimg2{
-    background-attachment: scroll;
-    overflow:auto;
+@keyframes slide-up {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
   }
 
-  #quotebox {
-    width: 50%;
-    margin: 0 auto;
-  }
-  
-  .quote { 
-    display:none; 
-    float:left; 
-    height:50px;
-    padding-top: 30px;
-  }
-  
-  .quotemark { 
-    display:none; 
-    float:left;
-    font:bold 80px Helvetica; 
-    letter-spacing:-35px; 
-    line-height:80px;
+  100% {
+    transform: translateY(0);
+    opacity: 1;
   }
 }
 
-/******* PORTFOLIO *******/
+@media screen and (min-width: 873px) {
+  .info {
+    top: 5rem;
+  }
 
-.polaroid {
-  width: 100%;
-  box-shadow: 0 .25px 2px 0 rgba(0, 0, 0, 0.5), 0 3px 2px 0 rgba(0, 0, 0, 1.25);
-  text-align: center;
-  margin: 0 0 20px 0;
-  position: relative;
-  background-color: white;
-}
-
-.attachment {
-  padding: 5px;
-  text-align: center;
-  background-color: white;
-  /* border-top:  #a09fa5 1.5px solid */
-}
-
-.project {
-  padding: 10px;
-  background-color: white;
-  margin:5px;
-}
-
-.project-title {
-  text-align: center;
-}
-
-.project-cover {
-  width: 100%;
-  display: block;
-  margin: 0 auto;
-}
-
-.bottom {
-  margin: 50px;
-  color: white;
-  text-align:center;
-}
-
-
-/******* FOOTER *******/
-
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #4e5d6c;
-  color: white;
-  text-align: center;
-  padding-bottom: 0px;
-}
-
-@media screen and (max-width: 568px) {
-  .footer {
-      background-color: #4e5d6c;
-      color: white;
-      position: relative;
-      left:0;
-      bottom:0;
-      right:0;
-      clear: both;
-      padding: 10px;
+  .mountains {
+    bottom: -10%;
   }
 }
 
-#copyright {
-  padding:5px;
-}
+@media only screen and (orientation: landscape) and (min-width: 740px) and (max-width: 1020px) {
+  body {
+    height: 100svh;
+  }
 
-/******* SOCIAL MEDIA LINKS *******/
-#github {
-  background-color: white;
-}
+  .info {
+    top: 2.5rem;
+  }
 
-.social {
-  width: 40px;
-  height: 40px;
-  margin-top: 8px;
-  margin-right: 5px;
-}
-
-.social:last-child {
-  margin-right: 0;
+  .mountains {
+    bottom: -15%;
+  }
 }
