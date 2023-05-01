@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   flex-direction: column;
   background: #9DDAF6;
@@ -38,7 +38,7 @@ body {
 .info h1 {
   color: white;
   font-size: 3rem;
-  margin: 0;
+  margin: 0 0 0.5rem 0;
 }
 
 .info h2 {
